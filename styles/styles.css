@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,200&display=swap');
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+}

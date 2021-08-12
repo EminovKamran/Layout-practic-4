@@ -1,0 +1,242 @@
+section .wrapper .main_choice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section .wrapper .main_choice ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+section .wrapper .main_specification ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+section .wrapper .main_specification_name {
+  color: #F3B562;
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+}
+section .wrapper .main_specification_text {
+  color: #647B64;
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  padding: 17px 0 40px 0;
+}
+section .wrapper .main_specification_description {
+  color: #4F4F4F;
+  font-family: Montseratt, sans-serif;
+  font-size: 16px;
+  line-height: 132%;
+  margin-bottom: 40px;
+}
+section .wrapper .main_button {
+  color: #FEFEFE;
+  background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%), #0E70AF;
+  border-radius: 2px;
+  text-decoration: none;
+  left: calc(50% - 93px/2 + 533px);
+  top: calc(50% - 40px/2 - 1966px);
+  padding: 27px 29px;
+  font-size: 16px;
+  font-family: Montseratt, sans-serif;
+  font-weight: 600;
+  line-height: 125%;
+  display: inline-flex;
+}
+section .wrapper .main_button:hover {
+  color: purple;
+  background: wheat;
+  cursor: pointer;
+}
+section .wrapper .main_button_vector {
+  padding: 0 0 0 142px;
+}
+section .wrapper .main_choice .main_choice_img {
+  background-color: #647B64;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+section .wrapper .main_choice .main_choice_img_1  {
+  background-color: #FFFFFF;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+section .wrapper .main_choice ul li img {
+  padding: 11px;
+}
+section .wrapper .main_choice_name {
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 116%;
+  padding: 16px 0 6px 0;
+}
+section .wrapper .main_choice_description {
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 132%;
+  color: #4F4F4F;
+}
+section .wrapper .main_choice .main_choice_background {
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 31px rgba(155, 148, 148, 0.17);
+  border-radius: 8px;
+  padding: 40px 27px 45px 40px;
+}
+section .wrapper .main_choice .main_choice_background:hover {
+  color: purple;
+  background: wheat;
+  cursor: pointer;
+}
+section .wrapper .main_choice ul {
+  padding: 40px 27px 45px 40px;
+}
+section .new_wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0 0 0;
+  text-align: center;
+}
+section .new_wrapper_new {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 58px 0 0 0;
+}
+
+section .new_wrapper .main_other ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+section .new_wrapper .main_specification_name {
+  color: #F3B562;
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+}
+section .new_wrapper .main_specification_text {
+  color: #647B64;
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  padding: 17px 0 40px 0;
+}
+section .new_wrapper_new .main_other_choice {
+  display: flex;
+  column-gap: 40px;
+}
+section .new_wrapper_new .main_other_choice ul {
+  margin: 0;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  padding: 84px 55px 50px 72px;
+  border-radius: 8px;
+}
+section .new_wrapper_new .main_other_choice ul:hover {
+  color: purple;
+  background: wheat;
+  cursor: pointer;
+}
+section .new_wrapper_new .main_other_choice .main_other_choice_background {
+  background-color: #647B64;
+}
+section .new_wrapper_new .main_other_choice .main_other_text {
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 132%;
+  color: rgba(79, 79, 79, 1);
+}
+section .new_wrapper_new .main_other_choice .main_other_name {
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgba(51, 51, 51, 1);
+  opacity: 0.3;
+  padding: 30px 0 6px 0;
+}
+section .wrapper .blog_post ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+section .wrapper .blog_post .blog_post_name {
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #F3B562;
+}
+section .wrapper .blog_post .blog_post_text {
+  font-family: Montseratt, sans-serif;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 110%;
+  color: #647B64;
+  padding-top: 17px;
+}
+section .wrapper .main_vector {
+  display: flex;
+  align-items: center;
+}
+section .wrapper .main_vector .main_vector_white {
+  background: linear-gradient(102.3deg, #647B64 -4.62%, #6ADD6A 178.22%);
+  border-radius: 50px;
+  padding: 16px;
+  margin-left: 35px;
+}
+section .wrapper .main_vector .main_vector_white:hover {
+  color: purple;
+  background: wheat;
+  cursor: pointer;
+}
+section .wrapper .blog_cell_number {
+  background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF;
+  border-radius: 8px;
+  padding: 15px;
+}
+section .wrapper .blog_cell_number:hover {
+  color: purple;
+  background: wheat;
+  cursor: pointer;
+}
+section .wrapper .blog_cell_number .blog_cell_number_1 {
+  display: flex;
+}
+section .wrapper .blog_cell_number .blog_cell_number_1 .blog_cell_name {
+  font-family: Montseratt, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 116%;
+  color: #333333;
+}
+section .wrapper .blog_cell_number .blog_cell_number_1 .blog_cell_name br {
+  font-size: 13px;
+  font-weight: normal;
+  font-family: Montseratt, sans-serif;
+  color: rgba(79, 79, 79, 1);
+  line-height: 132%;
+}
+section .wrapper .blog_cell_number .blog_cell_number_1 .blog_cell_img span {
+  font-family: Montseratt, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 132%;
+}
